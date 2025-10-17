@@ -1,0 +1,8 @@
+{
+  "name": "meu-projeto",
+  "version": "1.0.0",
+  "description": "Ambiente de desenvolvimento com live reload e Bootstrap",
+  "scripts": {
+    "start": "live-server src"
+  }
+}
