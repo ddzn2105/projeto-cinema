@@ -48,6 +48,51 @@
   </div>
 </nav>
 
+<form action="" method="post">
+  <div class="mb-3 ms-3 col-6 col-sm-2 col-lg-2">
+    <label for="select-filmes" class="form-label form-cor">Selecione um Filme</label>
+    <select class="form-select" id="select-filmes" required>
+      <option value="" disabled selected>-- Selecione um filme --</option>
+    </select>
+  </div>
+  <div class="mb-3 ms-3 col-6 col-sm-2 col-lg-2">
+    <label for="select-salas" class="form-label form-cor">Selecione uma Sala</label>
+    <select class="form-select" id="select-salas" required>
+      <option value="" disabled selected>-- Selecione uma sala --</option>
+    </select>
+  </div>
+  <div class="mb-3 ms-3 col-6 col-sm-2 col-lg-2">
+    <label for="date-time" class="form-label form-cor">Data e Hora</label>
+    <input type="datetime-local" class="form-control" id="date-time" required>
+  </div>
+  <div class="mb-3 ms-3 col-6 col-sm-2 col-lg-2">
+    <label for="preco" class="form-label form-cor">Preço</label>
+    <input type="number" class="form-control" id="preco" placeholder="Preço" required>
+  </div>
+  <div class="mb-3 ms-3 col-6 col-sm-2 col-lg-2">
+    <label for="select-idioma" class="form-label form-cor">Selecione um Idioma</label>
+    <select class="form-select" id="select-idioma" required>
+      <option value="" disabled selected>Escolha um idioma</option>
+      <option value="dublado">Dublado</option>
+      <option value="legendado">Legendado</option>
+    </select>
+  </div>
+  <div class="mb-3 ms-3 col-6 col-sm-2 col-lg-2">
+    <label for="select-formato" class="form-label form-cor">Selecione um Formato</label>
+    <select class="form-select" id="select-formato" required>
+      <option value="" disabled selected>Escolha um formato</option>
+      <option value="2D">2D</option>
+      <option value="3D">3D</option>
+      <option value="IMAX">IMAX</option>
+    </select>
+  </div>
+
+</form>
+
+<div class="mb-3 ms-3 col-5 col-sm-3 col-lg-2">
+ <input id="btnSalvarSessao" type="submit" class="btn btn-success" value="Salvar Sessão">
+</div>
+
   <!-- Bootstrap JS (opcional) -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
   <script src="js/script.js"></script>
